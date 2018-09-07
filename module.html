@@ -27,21 +27,24 @@ text-decoration:none;
 ul.topnav li a:hover:not(.active){
 background-color:#111;
 }
-ul.topnav li a.active{
+ul.topnav li.active{
 background-color:#c70039;
   color:black;
 }
 ul.topnav li.right{
 float:right;
 }
-  img{
+  #mypic{
   width:100%;
-    margin:0;
-    height:80%;
   }
+
 @media screen and (max-width:600px){
 ul.topnav{background-color:#581845; }
 ul.topnav li.right,ul.topnav li{ float:none;}
+  #mypic{
+  height:200px;
+    width:200px;
+  }
 
 }
 
@@ -57,7 +60,7 @@ ul.topnav li.right,ul.topnav li{ float:none;}
 <li class="right"><a href="#about">About me</a></li>
 </ul>
 
-<div style="padding:0 16px;">
+<div id="mypic">
 <img src=" raaz9711.github.io/assets/banner.jpg " >
 </div>
 </body>
