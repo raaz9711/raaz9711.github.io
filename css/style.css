@@ -1,7 +1,135 @@
-ul.navbar-nav li a:hover{
-background-color:#581845;
-  color:#555;
-    
-    
+*{
+	margin:0;
+	padding:0;
+}
+div.nav{
+	margin:0;
+}
+ul.menu{
+	margin:0;
+	padding:0;
+		text-decoration:none;
+		overflow:hidden;
+	background-color:#000000;
+	list-style-type:none;
+	
+}
+ul li{
+	
+	float:left;
 
+	
+}
+ul li a{
+	padding:14px 16px;
+	text-align:center;
+	display:block;
+		text-decoration:none;
+	color:grey;
+}
+li a:hover{
+	color:white;
+}
+div.home{
+	margin:0;
+	width:100%;
+	height:400px;
+	background-color:#ff0000;
+		
+}
+div.skill{
+	margin:0px;
+	overflow:hidden;
+	width:100%;
+	height:300px;
+	background-color:#00ff00;
+}
+div.about{
+	overflow:hidden;
+	width:100%;
+	height:400px;
+	background-color:#0000ff;
+}
+div.contact{
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	background-color:black;
+}
+div p.home{
+	margin-top:0px;
+	color:black;
+	font-size:18px;
+	
+}
+a{
+	text-decoration:none;
+}
+div.img1{
+	margin:25px;
+	float:left;
+	width:110px;
+}
+div.comment{
+	padding:15px;
+	text-align:center;
+}
+div.img1 img{
+	width:100%;
+	height:auto;
+}
+div.img1 img:hover{
+	border:1px solid #00ff00;
+}
+div.s2{
+
+	margin-top:0px;
+	overflow:hidden;
+	background-color:#00ff00;
+
+}
+div.s2 p{
+	margin-top:0px;
+	font-size:18px;
+}
+div.about ul{
+	list-style-type:none;
+}
+div.about ul li{
+	margin-left:0px;
+	line-height: 25px;
+float:none;
+color:white;
+	
+}
+div ul.links{
+	list-style-type:none;	
+	overflow:hidden;
+}
+img.linkimg{
+	margin-left:25px;
+	width:50px;
+	height:50px;
+}
+
+div ul.links li{
+	margin-left:25px;
+	
+}
+footer p{
+	color:white;
+	background-color:black;
+	text-align:center;
+}
+div.c1{
+	position:absolute;
+	bottom:0px;
+	margin-left:400px;
+	
+}
+div.day
+{
+	border:1px solid black;
+	position:relative;
+	overflow:hidden;
 }
