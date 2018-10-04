@@ -79,13 +79,13 @@ div.img1 img{
 	height:auto;
 }
 div.img1 img:hover{
-	border:1px solid #00ff00;
+	border:1px solid #282923;
 }
 div.s2{
 
 	margin-top:0px;
 	overflow:hidden;
-	background-color:#00ff00;
+background-color:#282923;
 
 }
 div.s2 p{
