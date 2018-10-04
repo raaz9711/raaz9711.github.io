@@ -45,7 +45,7 @@ div.skill{
 	overflow:auto;
 	width:auto;
 	height:300px;
-	background-color:#00ff00;
+	background-color:#282923;
 	padding: 70px 33% 0 33%;
 	}
 div.about{
@@ -54,13 +54,13 @@ div.about{
 	height:400px;
 
 	padding: 70px 33% 0 33%;
-	background-color:#00ff00;
+	background-color:#282923;
 }
 div.contact{
 	overflow:hidden;
 	width:100%;
 	height:auto;
-	background-color:black;
+	background-color:#282923;
 }
 a{
 	text-decoration:none;
