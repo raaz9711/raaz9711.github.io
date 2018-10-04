@@ -36,7 +36,6 @@ div.home{
 }
 div p.home	{
 	margin-top:0px;
-	color:black;
 	font-size:30px;
 	color: white;
 }
@@ -79,7 +78,7 @@ div.img1 img{
 	height:auto;
 }
 div.img1 img:hover{
-	border:1px solid #282923;
+	border:2px solid #282923;
 }
 div.s2{
 
@@ -113,7 +112,7 @@ img.linkimg{
 }
 
 div ul.links li{
-	margin-left:25px;
+	margin-left:5px;
 	
 }
 footer p{
@@ -126,7 +125,7 @@ div.c1{
 	bottom:0px;
 	margin: auto;
 	clear: both;
-	padding: 0 30% 0 30%;	
+	padding:0;	
 }
 div.day
 {
