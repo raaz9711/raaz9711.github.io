@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css " type="text/css" >
-<script></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" media ="screen and (min-width:900px)" href="css/style.css " type="text/css" >
+<link rel="stylesheet" media ="screen and (max-width:600px)" href="css/style1.css " type="text/css" >
+<style>
+</style>
+<script type="text/javascript "src="C:\Users\RAJKUMAR\Desktop\raaz9711.github.io\raaz9711.github.io\js\javas.js"></script>
+<script type="text/javascript " media ="screen and (max-width:600px)" src="C:\Users\RAJKUMAR\Desktop\raaz9711.github.io\raaz9711.github.io\js\javas1.js"></script>
 </head>
 <body>
-<div class="nav">
+<button onclick="abc()">
+<img  id ="navb1" src="assets/menubtn.png" >
+</button>
+<div class="nav" >
 <ul class="menu">
-	<li><a href="#">HOME</a> </li>
-	<li><a href="#">SKILL</a> </li>
-	<li><a href="#">ABOUT</a> </li>
-	<li><a href="#">CONTACT</a> </li>
+	<li onclick="a11()"><a href="#" >HOME</a> </li>
+	<li onclick="a21()"><a href="#">SKILL</a> </li>
+	<li onclick="a31()"><a href="#">ABOUT</a> </li>
+	<li onclick="a41()"><a href="#">CONTACT</a> </li>
 </ul> 
 
+
 </div>
-<div class="home">
+<div class="topdiv">
+<div class="home" id="a1">
 	<center>
 		<p class="home" style="padding-top: 100px;">
 			My name is Raj kumar.<br>
@@ -26,42 +36,55 @@
 	</center>
 </div>
 
-<div class="skill">
+<div class="skill" id="a2" onmouseover="show(this)" onmouseout="hide(this)">
 	<center>
-		<h2 style="font-weight: 800"><u> SKILLS:</u></h2>
+		<h2 id="skillh2"  style="font-weight: 800"><u> SKILLS:</u></h2>
 		<br>
 	</center>
 		<div class="img1">
 			<img src="assets/c.png" height="100px" width="100px">
 			<div class="comment">C programming</div>
-		</div>
+			</div>
+			
 		<div class="img1">
-			<img src="assets/cpp2.png" height="100px" width="100px">
+			<a href="#"><img src="assets/cpp2.png" height="100px" width="100px" ></a>
 			<div class="comment">C++</div>
+				
 		</div>
 		<div class="img1">
-			<img src="assets/java.png" height="100px" width="100px">
+			<img src="assets/java.png" height="100px" width="100px" >
 			<div class="comment">Core java</div>
+				
 		</div>
 		<div class="img1">
-			<img src="assets/js.png" height="100px" width="100px">
+			<img src="assets/andy.png" height="100px" width="100px" >
+			<div class="comment">Android</div>
+				
+		</div>
+		<div class="img1">
+			<img src="assets/js.png" height="100px" width="100px" >
 			<div class="comment">JavaScript</div>
+				
 		</div>	
+		<div class="img1">
+			<img src="assets/webdev.png" height="100px" width="100px" >
+			<div class="comment">Web devlopment</div>
+				
+		</div>	
+		<br>
+		
+		
+		
 </div>
-	<div style="clear: both"></div>	
-	<div class="s2">
-		<center>
-		<p>I have a good experience with all the aboves
-		languanges.</p><br>
-		</center>
-	</div>
-<hr>
+</div>
+	
 
-<div class="about">
+
+<div class="about" id="a3">
 <center>
-<h2 style="font-weight: 800"><u> ABOUT: </u></h2><br>
+<h2 id="abouth2" style="font-weight: 800"><u> ABOUT: </u></h2><br>
 </center>
-<ul style="list-style-type:square">
+<ul id="abouts" style="list-style-type:square">
 	<li>I like to program and learn new thing and programming languanges</li><br>
 	<li>I spend my time in reading novel and books.</li><br>
 	<li>I love to watch anime,movies and web series.</li><br>
@@ -69,19 +92,26 @@
 </ul>
 </div>
 
-<div class="contact">
 
-<div class="day">
-	<img src="assets/daylight.jpg" height="500px" width="100%">
-	<div class="c1">
+<div class="form" >
+
+<form  name="suggestion" onsubmit="return abc()">
+  <fieldset>
+    <legend style="font-size:50px;font-weight:400">Suggestion:</legend>
+    <textarea name="message" rows="5" cols="50" placeholder="Write what you feel about this page">
+	</textarea>
+    <br>
+	<input type="submit" value="Submit" >
+  </fieldset>
+</form>
+  </div>
+<div class="contact" id="a4">
+
+
 		<ul class="links">
+
 			<li>
-				<a href="https://www.gmail.com/raaz.kumar015@gmail.com">
-					<img class="linkimg" src="assets/gmail.png" alt="gmail">
-				</a>
-			</li>
-			<li>
-				<a href="https://www.facebook.com/raazkum">
+				<a href="https://www.facebook.com/raaz9711">
 					<img class="linkimg" src="assets/fb.png" alt="fb">
 				</a>
 			</li>
@@ -102,12 +132,13 @@
 			</li>
 
 		</ul>
-	</div>
-</div>
+
 
 </div>
+
 <footer>
-<p>raaz.kumar015@gmail.com</p>
+<p> <b> Email me @ </b> raaz.kumar015@gmail.com</p>
+
 </footer>
 
 </body>
