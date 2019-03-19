@@ -47,7 +47,11 @@ padding:4px 8px;
 
 font-size:72px;
 }
-
+.fontsizing{
+    font-size: 32px !important;
+    color:black;
+    font-weight: 900;
+}
 
 
 @media only screen and (max-width: 600px) {
