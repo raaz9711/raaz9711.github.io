@@ -13,3 +13,30 @@ text-weight:bolder;
 .nav-link{
 color:white !important;
 }
+
+
+
+.auth-img{
+
+border:2px solid black;
+
+}
+
+.fab,.fas{
+padding:4px 8px;
+}
+
+.contact-logo{
+
+font-size:72px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ .contact-logo{
+
+font-size:32px;
+}
+}
+
