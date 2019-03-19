@@ -1,5 +1,15 @@
-body{
-margin:0px;
-padding:0px;
-background-color:red;
+.navbar{
+padding:0px !important;
+}
+.navcolor{
+background-color:#6759B4;
+}
+
+.navelem li:hover{
+background-color:black;
+text-weight:bolder;
+}
+
+.nav-link{
+color:white !important;
 }
