@@ -1,3 +1,4 @@
+
 .navbar{
 padding:0px !important;
 }
@@ -7,9 +8,19 @@ background-color:#6759B4;
 
 .navelem li:hover{
 background-color:black;
-text-weight:bolder;
+font-weight:bolder;
+position: relative;
+animation-name: navanim;
+animation-duration: 5000ms;
 }
-
+@keyframes navanim{
+    from {
+        bottom:-16px;
+    }
+    to{
+        bottom:0px;;
+    }
+}
 .nav-link{
 color:white !important;
 }
@@ -20,6 +31,12 @@ color:white !important;
 
 border:2px solid black;
 
+}
+.auth-img:hover{
+box-shadow:4px 6px 8px #808080;
+position:relative;
+animation-name: navanim;
+animation-duration: 2s;
 }
 
 .fab,.fas{
@@ -38,5 +55,12 @@ font-size:72px;
 
 font-size:32px;
 }
+.navelem li:hover{
+    background-color:black;
+    font-weight:bolder;
+    position: relative;
+    animation-name: navanim;
+    animation-duration: 0s;
+    }
 }
 
