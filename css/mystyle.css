@@ -1,0 +1,14 @@
+.navcustom {
+  background-color: #f1f1f1;
+}
+.navcustom a {
+  color: red !important;
+}
+.navcustom .navbar-toggler {
+  background-color: red !important;
+}
+.navcustom div ul li a {
+  color: red !important;
+}
+
+/*# sourceMappingURL=mystyle.css.map */

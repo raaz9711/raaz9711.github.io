@@ -1,0 +1,22 @@
+$custom-nav-background-color:#f1f1f1;
+$custom-nav-color:red !important;
+
+.navcustom{
+  background-color: $custom-nav-background-color;
+  a{
+    color: $custom-nav-color;
+
+}
+.navbar-toggler{
+  background-color: $custom-nav-color;
+}
+div{
+  ul{
+    li{
+      a{
+        color: $custom-nav-color;
+      }
+    }
+  }
+}
+}
