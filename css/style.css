@@ -1,4 +1,6 @@
-
+body{
+  background-color: #343a40;
+}
 .introdisplay{
   width: 100%;
   height:700px;
@@ -31,28 +33,38 @@
   /* background-image: linear-gradient(to bottom, #c0c0c0, #c0c0d0); */
 
 }
+#about{
+  width: 90%;
+  margin: 24px auto;
+}
 .degintro{
   text-align: center;
   margin-top:40px;
   font-size:80px;
   color: dodgerblue;
 }
-.skillset{
-  background-color: #c0c0c0;
-  width: 60%;
-  /* margin-left: 16px auto; */
-}
-.sk {
-  padding: 8px;
-  margin: 2px;
-  border-radius: 25%;
-  border: 4px solid transparent;
 
-  /* background-color: black; */
+.mylist--item{
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
 
+  font-size: 24px;
+  /* padding: ; */
+  /* margin: 24px; */
+  padding: 24px;
 }
-.sk > h4 {
-  text-align: center;
-  font-size: 30px;
-  margin: 12px 8px;
+.mylist--item:hover{
+  background-color: #007bff;
+  color: #ffc107;
+  z-index:1;
+  box-shadow: 4px 6px 4px #808080;
+}
+.spacing{
+  width: 100%;
+  height: 40px;
+}
+
+.Skill-Container{
+  width: 80%;
+  margin: 16px auto;
 }
