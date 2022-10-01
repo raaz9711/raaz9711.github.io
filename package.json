@@ -1,7 +1,7 @@
 {
   "name": "myresume",
   "version": "0.1.0",
-  "homepage": "https://github.com/raaz9711/raaz9711.github.io",
+  "homepage": "https://raaz9711.github.io/raaz9711.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
