@@ -1,0 +1,22 @@
+.navbarlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #12e4ed;
+}
+.nav-item{
+    float: left;
+}
+.nav-item a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.nav-item a:hover{
+    background-color: #f7fb04;
+}
