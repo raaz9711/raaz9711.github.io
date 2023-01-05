@@ -1,9 +1,19 @@
+:root{
+  --navbar-bg:#12e4ed;
+  --navbar-hover-bg:#f7fb04;
+  --main-content-bg:#8355aa;
+  
+
+}
+
+
+
 .navbarlist{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #12e4ed;
+  background-color: var(--navbar-bg);
 }
 .nav-item{
     float: left;
@@ -18,5 +28,25 @@
   font-size: 18px;
 }
 .nav-item a:hover{
-    background-color: #f7fb04;
+    background-color: var(--navbar-hover-bg);
+}
+.main_content{
+  padding: 8px 16px;
+  background-color: var(--main-content-bg);
+  height: 80vh;
+}
+.inner_content{
+  height: 40vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  color: white;
+
+}
+.main_intro{
+  text-align: center;
+  font-size: 64px;
+}
+.main_sub_intro{
+  text-align: center;
+  font-size: 36px;
 }
