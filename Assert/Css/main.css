@@ -32,21 +32,72 @@
 }
 .main_content{
   padding: 8px 16px;
-  background-color: var(--main-content-bg);
-  height: 80vh;
+  /* background-color: var(--main-content-bg); */
+  /* height: 80vh; */
+  /* background-image: url("../Image/background.jpg");
+  background-color: #cccccc;
+  background-origin: content-box;
+  background-position: center center; */
 }
+.img_cls{
+  height: 700px;
+  width: 95vw;
+  margin: 8px;
+}
+
+
+.main_intro:hover {
+  background-color: white;
+  color: black;
+   padding: 4px 2px;
+  border: 2px solid white;
+  }
+  
+  .main_sub_intro:hover {
+  background-color: white;
+  color: black;
+   padding: 4px 2px;
+  border: 2px solid white;
+  }
+
+
 .inner_content{
   height: 40vh;
   margin-top: 20vh;
   margin-bottom: 20vh;
   color: white;
+  position: relative;
+  bottom: 500px;
+  left: 200px;
+
 
 }
 .main_intro{
   text-align: center;
   font-size: 64px;
+  padding: 8px 4px;
+  margin:8px;
 }
 .main_sub_intro{
   text-align: center;
   font-size: 36px;
+  padding: 8px 4px;
+  margin:8px;
+
+
+}
+
+.div_space{
+  height: 4px;
+}
+
+.div_space_16{
+  height: 16px;
+}
+.div_space_8{
+  height: 8px;
+}
+
+.div_space_32{
+  height: 32px;
 }
