@@ -1,0 +1,1 @@
+import{Ba as l,qa as t,xa as n,ya as p}from"./chunk-NESMPKXJ.js";var s=class o{static \u0275fac=function(e){return new(e||o)};static \u0275cmp=t({type:o,selectors:[["app-blog"]],decls:2,vars:0,template:function(e,i){e&1&&(n(0,"p"),l(1,"blog works!"),p())},encapsulation:2})};export{s as BlogComponent};
