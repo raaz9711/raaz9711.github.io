@@ -1,4 +1,10 @@
-<ul class="nav">
+<nav class="navbar navbar-expand-lg " [class.navbar-dark]="!isDarkMode" [class.navbar-light]="isDarkMode" [class.bg-dark]="isDarkMode" [class.text-white]="isDarkMode" [class.bg-light]="isDarkMode" [class.text-dark]="!isDarkMode">
+  <button (click)="toggleDarkMode()" class="theme-toggle mb-4" aria-label="Toggle dark mode">
+    <span *ngIf="!isDarkMode">🌙</span>
+    <span *ngIf="isDarkMode">☀️</span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+<ul class="nav" >
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" routerLink="/">Raaz9711</a>
   </li>
@@ -19,3 +25,5 @@
   </li>
 
 </ul>
+</div>
+</nav>

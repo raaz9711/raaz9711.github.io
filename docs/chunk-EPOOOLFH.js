@@ -1,0 +1,1 @@
+import{I as r,h as o}from"./chunk-5D3PFZ5Z.js";var t=class e{constructor(){}isDarkMode=new o(!1);isDarkMode$=this.isDarkMode.asObservable();toggleDarkMode(){this.isDarkMode.next(!this.isDarkMode.value)}static \u0275fac=function(a){return new(a||e)};static \u0275prov=r({token:e,factory:e.\u0275fac,providedIn:"root"})};export{t as a};
